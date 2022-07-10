@@ -95,7 +95,7 @@ extension_services:
           My_License:
             class: License
             licenseType: regKey
-            regKey: AAAAA-BBBBB-CCCCC-DDDDD-EEEEEEE
+            regKey: {{{LICENSE_KEY}}}
           My_Ntp:
             class: NTP
             servers:
@@ -104,7 +104,6 @@ extension_services:
           My_Provisioning:
             class: Provision
             ltm: nominal
-            asm: nominal
           My_System:
             class: System
             autoPhonehome: true
